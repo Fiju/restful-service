@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "outDir": "./build",
+    "target": "es5",
+    "module": "esnext",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "jsx": "react",
+    "rootDir": "./src",
+    "declaration": true,
+    "lib": ["esnext", "dom", "es2015"],
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "include": ["./src/index.ts", "./**/*.tsx"],
+  "exclude": ["./node_modules/"]
+}

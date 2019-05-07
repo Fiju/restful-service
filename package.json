@@ -1,0 +1,36 @@
+{
+  "name": "restful-service",
+  "version": "0.0.1",
+  "description": "HTTP REST adapters implementation for the front-end",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "tsc --project tsconfig.json",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "test": "jest --config jest.config.js"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "@types/node": "^11.13.4",
+    "isomorphic-fetch": "^2.2.1",
+    "jest": "^24.7.1",
+    "jest-sonar-reporter": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "ts-jest": "^24.0.2",
+    "tslint": "^5.15.0",
+    "typescript": "^3.4.2"
+  },
+  "pre-commit": [
+    "lint",
+    "test"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faizan-Shiraz/restful-service.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faizan-Shiraz/restful-service/issues"
+  },
+  "homepage": "https://github.com/Faizan-Shiraz/restful-service#readme"
+}
