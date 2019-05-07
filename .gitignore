@@ -2,7 +2,6 @@
 .cache-loader/
 .jest-cache
 coverage/
-build/
 node_modules/
 
 *.log
