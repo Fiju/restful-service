@@ -1,0 +1,16 @@
+# Code Artifacts
+.cache-loader/
+.jest-cache
+coverage/
+build/
+node_modules/
+
+*.log
+
+test-report.xml
+
+
+# IDE Artifacts
+.idea/
+out/
+.vscode/

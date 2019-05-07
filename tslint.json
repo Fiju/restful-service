@@ -1,0 +1,121 @@
+{
+  "extends": ["tslint:latest"],
+  "defaultSeverity": "error",
+  "rules": {
+    "align": [true, "parameters", "statements"],
+    "array-type": [true, "generic"],
+    "arrow-parens": [true, "ban-single-arg-parens"],
+    "arrow-return-shorthand": [true],
+    "class-name": true,
+    "comment-format": [true, "check-space"],
+    "indent": [true, "spaces", 2],
+    "interface-name": [true, "always-prefix"],
+    "max-line-length": [true, 120],
+    "member-access": false,
+    "no-console": [true, "log", "error"],
+    "no-eval": true,
+    "no-implicit-dependencies": false,
+    "no-internal-module": true,
+    "no-namespace": [true, "allow-declarations"],
+    "no-submodule-imports": false,
+    "no-trailing-whitespace": true,
+    "no-unsafe-finally": true,
+    "no-unused-expression": true,
+    "no-var-keyword": true,
+    "no-var-requires": true,
+    "object-literal-sort-keys": false,
+    "one-line": [true, "check-open-brace", "check-whitespace"],
+    "ordered-imports": [false],
+    "prefer-const": true,
+    "quotemark": [true, "single"],
+    "semicolon": [true, "always"],
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "always",
+        "singleline": "never"
+      }
+    ],
+    "triple-equals": [true, "allow-null-check"],
+    "typedef-whitespace": [
+      true,
+      {
+        "call-signature": "onespace",
+        "index-signature": "onespace",
+        "parameter": "onespace",
+        "property-declaration": "onespace",
+        "variable-declaration": "onespace"
+      }
+    ],
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-pascal-case",
+      "allow-leading-underscore"
+    ],
+    "whitespace": [
+      true,
+      "check-branch",
+      "check-decl",
+      "check-operator",
+      "check-module",
+      "check-separator",
+      "check-type",
+      "check-typecast",
+      "check-preblock"
+    ],
+    "callable-types": false,
+    "jsdoc-format": true,
+    "interface-over-type-literal": true,
+    "match-default-export-name": true,
+    "member-ordering": false,
+    "newline-before-return": false,
+    "no-any": false,
+    "no-boolean-literal-compare": true,
+    "no-consecutive-blank-lines": [true, 2],
+    "no-empty-interface": false,
+    "no-inferrable-types": [true, "ignore-params"],
+    "no-invalid-this": [true, "check-function-in-method"],
+    "no-irregular-whitespace": true,
+    "no-null-keyword": false,
+    "no-require-imports": false,
+    "no-switch-case-fall-through": true,
+    "no-unnecessary-type-assertion": true,
+    "only-arrow-functions": [true, "allow-declarations"],
+    "object-literal-shorthand": true,
+    "prefer-method-signature": true,
+    "prefer-template": true,
+    "promise-function-async": true,
+    "space-before-function-paren": [true, "always"],
+    "typedef": [
+      true,
+      "parameter",
+      "property-declaration",
+      "member-variable-declaration",
+      "call-signature",
+      "arrow-call-signature",
+      "arrow-parameter"
+    ],
+
+    "jsx-curly-spacing": [
+      2,
+      "always",
+      {
+        "spacing": {
+          "objectLiterals": "never"
+        }
+      }
+    ],
+    "jsx-boolean-value": [2, "never"],
+    "no-import-side-effect": [
+      true,
+      {
+        "ignore-module": "(^rxjs/|\\.html|\\.css|\\.scss)$"
+      }
+    ],
+    "prefer-conditional-expression": false,
+    "jsx-no-multiline-js": false,
+    "jsx-no-lambda": false
+  }
+}
