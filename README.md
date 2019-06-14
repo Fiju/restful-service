@@ -35,10 +35,10 @@ promise.then(result => console.log(result))
 ```
 ##### Post Request: 
 ```javascript
-const p = basicPost('https://jsonplaceholder.typicode.com/posts')({
+const promise = basicPost('https://jsonplaceholder.typicode.com/posts')({
   title: 'foo',
   body: 'bar',
   userId: 1
 })();
-res.then(r => console.log(r))
+promis.then(result => console.log(result))
 ```
