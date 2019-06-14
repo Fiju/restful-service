@@ -1,6 +1,6 @@
 {
   "name": "restful-service",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "HTTP REST adapters implementation for the front-end",
   "main": "./build/index.js",
   "scripts": {

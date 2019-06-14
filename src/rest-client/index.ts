@@ -25,33 +25,3 @@ export const basicPost = (url : string) : any => (
   });
   return response.json();
 };
-
-export const basicPut = (url : string) : any => (
-  payload : any,
-  opts : any = {},
-) : any => async () : Promise<object> => {
-  const headers = !!opts.headers ? opts.headers : {};
-  headers['Content-Type'] = 'application/json';
-  const response = await fetch(url, {
-    method: 'PUT',
-    ...opts,
-    body: JSON.stringify(payload),
-    headers,
-  });
-  return response.json();
-};
-
-export const basicDelete = (url : string) : any => (
-  payload : any,
-  opts : any = {},
-) : any => async () : Promise<object> => {
-  const headers = !!opts.headers ? opts.headers : {};
-  headers['Content-Type'] = 'application/json';
-  const response = await fetch(url, {
-    method: 'DELETE',
-    ...opts,
-    body: JSON.stringify(payload),
-    headers,
-  });
-  return response.json();
-};
