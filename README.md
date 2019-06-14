@@ -40,5 +40,5 @@ const promise = basicPost('https://jsonplaceholder.typicode.com/posts')({
   body: 'bar',
   userId: 1
 })();
-promis.then(result => console.log(result))
+promise.then(result => console.log(result))
 ```
