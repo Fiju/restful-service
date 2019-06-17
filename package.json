@@ -32,5 +32,11 @@
   "bugs": {
     "url": "https://github.com/Faizan-Shiraz/restful-service/issues"
   },
-  "homepage": "https://github.com/Faizan-Shiraz/restful-service#readme"
+  "homepage": "https://github.com/Faizan-Shiraz/restful-service#readme",
+  "keywords": [
+    "http",
+    "fetch",
+    "promise",
+    "xhr"
+  ]
 }
