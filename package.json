@@ -1,6 +1,6 @@
 {
   "name": "restful-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HTTP REST adapters implementation for the front-end",
   "main": "./build/index.js",
   "scripts": {
@@ -32,5 +32,11 @@
   "bugs": {
     "url": "https://github.com/Faizan-Shiraz/restful-service/issues"
   },
-  "homepage": "https://github.com/Faizan-Shiraz/restful-service#readme"
+  "homepage": "https://github.com/Faizan-Shiraz/restful-service#readme",
+  "keywords": [
+    "http",
+    "fetch",
+    "promise",
+    "xhr"
+  ]
 }
