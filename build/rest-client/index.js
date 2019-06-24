@@ -45,7 +45,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 var _this = this;
-export var basicGet = function (url) { return function (opts) {
+export var restGet = function (url) { return function (opts) {
     if (opts === void 0) { opts = {}; }
     return __awaiter(_this, void 0, void 0, function () {
         var headers, response;
@@ -62,7 +62,7 @@ export var basicGet = function (url) { return function (opts) {
         });
     });
 }; };
-export var basicPost = function (url) { return function (payload, opts) {
+export var restPost = function (url) { return function (payload, opts) {
     if (opts === void 0) { opts = {}; }
     return function () { return __awaiter(_this, void 0, void 0, function () {
         var headers, response;
