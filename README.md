@@ -16,26 +16,26 @@ $ yarn add restful-service
 
 ## Usage
 ```javascript
-import { basicGet, basicPost } from 'restful-service';
+import { restGet, restPost } from 'restful-service';
 
-const promise = basicGet(urlString)();
+const promise = restGet(urlString)();
 promise.then(result => console.log(result));
     
-const res = basicPost(urlString)(payloadObject)();
+const res = restPost(urlString)(payloadObject)();
 res.then(r => console.log(r))
 ```
 ## Examples
 
 ##### Get Request: 
 ```javascript
-import { basicGet, basicPost } from 'restful-service';
+import { restGet, restPost } from 'restful-service';
 
-const promise = basicGet('https://jsonplaceholder.typicode.com/users')()
+const promise = restGet('https://jsonplaceholder.typicode.com/users')()
 promise.then(result => console.log(result))
 ```
 ##### Post Request: 
 ```javascript
-const promise = basicPost('https://jsonplaceholder.typicode.com/posts')({
+const promise = restPost('https://jsonplaceholder.typicode.com/posts')({
   title: 'foo',
   body: 'bar',
   userId: 1

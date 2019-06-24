@@ -37,6 +37,9 @@
     "http",
     "fetch",
     "promise",
-    "xhr"
+    "xhr",
+    "network-request",
+    "get",
+    "post"
   ]
 }
