@@ -1,4 +1,4 @@
-export const basicGet = (url : string) : any => async (
+export const restGet = (url : string) : any => async (
   opts : any = {},
 ) : Promise<object> => {
   const headers = !!opts.headers ? opts.headers : {};
@@ -11,7 +11,7 @@ export const basicGet = (url : string) : any => async (
   return response.json();
 };
 
-export const basicPost = (url : string) : any => (
+export const restPost = (url : string) : any => (
   payload : any,
   opts : any = {},
 ) : any => async () : Promise<object> => {

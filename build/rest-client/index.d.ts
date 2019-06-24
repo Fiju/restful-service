@@ -1,2 +1,2 @@
-export declare const basicGet: (url: string) => any;
-export declare const basicPost: (url: string) => any;
+export declare const restGet: (url: string) => any;
+export declare const restPost: (url: string) => any;
